@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="views/imagensProjeto/nuevo-internacional-1024x1024.PNG">
+    <title>SSVP Porto</title>
+    <style>
+        header {
+            height: 200px;
+            padding: 10px 20px 10px 10px;
+            background: white;
+        }
+
+        .log {
+            height: 150px;
+            width: 300px;
+            float: left;
+        }
+        .login{
+            float:right;
+            margin-top:100px;
+        }
+
+        body {
+            background: rgb(0, 0, 200,0.2);
+        }
+        .largura{
+            width:1600px;
+            margin-bottom: 50px;
+
+        }
+       
+        .maior{
+            width:430px;
+        }
+        .menor {
+            width: 300px;
+        }
+        .cadastro {
+            width: 700px;
+            padding: 30px 0px 0px 0px;
+        }
+        textarea {
+            width: 430px;
+        }
+
+        footer {
+            background-color: rgb(0,150, 5,0.3);
+        }
+
+        .foot {
+            font-size: 14px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img class="log" src="views/imagensProjeto/logo.PNG">
+        <h1>Louvado Seja Nosso Senhor Jesus Cristo!</h1>
+        <!--<form class="row g-3 login">
+            <div class="col-auto ">
+                <label for="email" name="email" class="visually-hidden">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="email">
+            </div>
+            <div class="col-auto">
+                <label for="inputPassword2" name="inputPassword2" class="visually-hidden">Senha</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Senha">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Entrar</button>
+            </div>
+        </form>-->
+    </header>
+        <div class="container">
+        <nav class="nav">
+            <nav class="nav nav-item dropdown nav-pills nav-justified">
+                <a class=" nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Obras</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Asilo São Vicente Belmont</a>
+                    <a class="dropdown-item" href="#">Creche Casa Amor</a>
+                    <a class="dropdown-item" href="#">Projeto Arco-iris</a>
+                </div>
+            </nav>
+            <nav class="nav nav-item dropdown nav-pills nav-justified  ">
+                <a class=" nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SSVP</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">História</a>
+                    <a class="dropdown-item" href="#">Organograma</a>
+                    <a class="dropdown-item" href="#">Como participar</a>
+                    <a class="dropdown-item" href="#">O que fazemos</a>
+                    <a class=" nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SSVP Brasil</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Conselho Nacional</a>
+                        <a class="dropdown-item" href="#">Conselhos Metropolitanos</a>
+                        <a class="dropdown-item" href="#">Conselhos Centrais</a>
+                        <a class="dropdown-item" href="#">Conselhos Particulares</a>
+                    </div>
+                </div>
+            </nav>
+            <nav class="nav nav-item dropdown nav-pills nav-justified  ">
+                <a class=" nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Material de Apoio</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Orações</a>
+                    <a class="dropdown-item" href="#">Hinos</a>
+                    <a class="dropdown-item" href="#">Materiais à venda</a>
+                </div>
+            </nav>
+            <nav class="nav nav-item dropdown nav-pills nav-justified  ">
+                <a class=" nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SSVP Porto Seguro</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Doações</a>
+                    <a class="dropdown-item" href="#">Contato</a>
+                    <a class="dropdown-item" href="#">Informativo</a>
+                </div>
+            </nav>
+        </nav>
+            </div>
+        <div class="container-xxl">                
+            <div class="row justify-content-evenly largura">
+                <div class="col-6">
+                    <fieldset class="cadastro">
+                        <legend>Cadastro da Conferência</legend>
+
+                        <label for="inputConferência" class="label1">Nome da conferência:</label>
+                        <input type="text" class="form-control maior" required>
+
+                        <label for="formGroupExampleInput1" class="label2 ">Data de Fundação:</label>
+                        <input type="date" class="form-control border-success menor">
+
+
+                        <label for="inputConferência" class="label2">Nome do presidente:</label>
+                        <input type="text" class="form-control maior" required>
+
+
+
+                        <div class="col-md-4">
+                            <label for="inputSecretario" class="form-label">Nome do secretário:</label>
+                            <input type="text" class="form-control" id="inputSecretario" required="">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputTesoureiro" class="form-label">Nome do tesoureiro:</label>
+                            <input type="text" class="form-control" id="inputTesoureiro" required="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label2">Data da posse da atual diretoria:</label>
+                            <input type="date" class="form-control border border-success menor" id="formGroupExampleInput2">
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputConferência" class="label2">Local das reuniões:</label>
+                                <input type="text" class="form-control menor" placeholder="ex: igreja, salão..." required>
+                            </div>
+                            <div class="col">
+                                <label for="inputRua" class="form-label2">Endereço:</label>
+                                <input type="text" class="form-control menor" id="inputRua" placeholder="ex:rua, número" required="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputConferência" class="label2">Bairro:</label>
+                                <input type="text" class="form-control menor" required>
+                            </div>
+                            <div class="col">
+                                <label for="formGroupExampleInput1" class="label2 ">Cidade:</label>
+                                <input type="text" class="form-control menor">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="formGroupExampleInput4" class="form-label2">Dia das reuniões:</label>
+                                <select class="form-select border border-success menor">
+                                    <option selected="">selecione o dia</option>
+                                    <option value="1">Segunda-feira</option>
+                                    <option value="2">Terça-feira</option>
+                                    <option value="3">Quarta-feira</option>
+                                    <option value="4">Quinta-feira</option>
+                                    <option value="5">Sexta-feira</option>
+                                    <option value="6">Sábado</option>
+                                    <option value="7">Domingo</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="formGroupExampleInput4" class="form-label2">Horario da reunião:</label>
+                                <input type="time" class="form-control border border-success menor" id="formGroupExampleInput4">
+                            </div>
+                        </div>
+                        <label for="formGroupExampleInput1" class="label1 ">Telefone para contato:</label>
+                        <input type="tel" class="form-control menor">
+                        <div class="col-6 mb-3">
+                            <label for="text">Observações:</label>
+                            <textarea class="form-control" id="floatingTextarea2" style="height: 100px" placeholder="Comentários, dúvidas, sugestões, reclamações..."></textarea>
+                        </div>
+                        <button type="button" class="btn btn-warning">Alterar</button>
+                        <button type="submit" class="btn btn-success">Confirmar</button><br><br>
+                        <button type="button" class="btn btn-danger">Excluir</button>
+                    </fieldset>
+                </div>
+                <div class="col-6">
+                    <fieldset class="cadastro">
+                        <legend>Balanço financeiro e das doações</legend>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputMes" class="form-label">Mês de atividade:</label>
+                                <input type="text" class="form-control menor" id="inputMes" required="">
+                            </div>
+                            <br>
+                            <p>RECEITAS</p>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputColeta" class="form-label">Evento:</label>
+                                    <input type="text" class="form-control menor" id="inputColeta" placeholder="R$">
+                                </div>
+                                <div class="col">
+                                    <label for="inputRua" class="form-label">Descrição do evento</label>
+                                    <input type="text" class="form-control menor" id="inputColeta" placeholder="venda de lanche, bazar da pechincha, rifa...">
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-4">
+                                <label for="inputColeta" class="form-label">Coleta:</label>
+                                <input type="text" class="form-control menor" id="inputColeta" placeholder="R$" required>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="formGroupExampleInput2" class="form-label1"> Subscrição:</label>
+                                <input type="text" class="form-control border border-success menor" id="formGroupExampleInput2" placeholder="R$">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputSecretario" class="form-label">Doação :</label>
+                                <input type="text" class="form-control menor" id="inputSecretario" placeholder="R$">
+                            </div>
+                            <br>
+                            <p>DESPESAS</p>
+                            <div class="form-group col-md-4">
+                                <label for="inputTesoureiro" class="form-label">Décima Paga:</label>
+                                <input type="text" class="form-control menor" id="inputTesoureiro" required placeholder="R$">
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputRua" class="form-label">Assistido</label>
+                                    <input type="text" class="form-control menor" id="inputRua" placeholder="R$">
+                                </div>
+                                <div class="col">
+                                    <label for="inputRua" class="form-label">Descrição da despesa</label>
+                                    <input type="text" class="form-control menor" id="inputRua" placeholder="água, luz, gas, passagem, remédio, reforma..." ">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputRua" class="form-label">Formação</label>
+                                    <input type="text" class="form-control menor" id="inputRua" placeholder="R$">
+                                </div>
+                                <div class="col">
+                                    <label for="inputRua" class="form-label">Descrição da formação</label>
+                                    <input type="text" class="form-control menor" id="inputBairro" placeholder="Ecafo, retiro...">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group col-md-4">
+                                <label for="inputCity" class="form-label">Assembleia</label>
+                                <input type="text" class="form-control menor" id="inputCity" placeholder="R$">
+                            </div>
+
+                            <label for="inputRua" class="form-label">Materiais de escritório</label>
+                            <input type="text" class="form-control menor" id="inputBairro" placeholder="R$">
+                            <div class="form-group col-6 mb-3">
+                                <label for="text">Observações</label>
+                                <textarea class="form-control" id="floatingTextarea2" style="height: 100px" placeholder="Comentários, dúvidas, sugestões, reclamações..."></textarea>
+                            </div>
+                            <button type="button" onclick="alterar" class="btn btn-warning">Alterar</button>
+                            <button type="button" onclick="confirmar"  class="btn btn-success">Confirmar</button><br><br>
+                            <button type="button" onclick="excluir"  class="btn btn-danger">Excluir</button>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+       
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h5>Conselho Particular Costa do Descobrimento</h5>
+                        <p class="foot">
+                            Presidente: Confrade Thiago<br>Email:<br>Tel:<br>
+                            Endereço<br>
+                            Facebook<br>Instagram:
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Conselho Central de Itabuna</h5>
+                        <p class="foot">
+                            Presidente: Consócia Adriana<br>Email:<br>Tel:<br>
+                            Endereço: Rua Professora Dalila Paganelli S/N, Centro, Itabuna-BA
+                            <br>Facebook<br>Instagram:
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Conselho Metropolitano Bahia Sergipe</h5>
+                        <p class="foot">
+                            Presidente:<br>Email:<br>Tel:<br>Endereço<br>Facebook<br>Instagram:
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Conselho Nacional do Brasil</h5>
+                        <p class="foot">
+                            Presidente: Confrade Márcio<br>Email:<br>
+                            Tel: (21) 2242-8060 ou  (21) 2242-3834<br>
+                            Endereço:Conselho Nacional do Brasil da Sociedade de São Vicente de Paulo
+                            Rua do Riachuelo, 75 – Centro, Rio de Janeiro, RJ<br>
+                            Facebook<br>Instagram:
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Conselho Geral Internacional</h5>
+                        <p class="foot">
+                            Presidente: Confrade Renato Lima <br>Email:cgi.communication@ssvpglobal.org<br>
+                            Tel:+33(0) 1 53 45 87 53<br>
+                            Endereço:65 Rue de la Glacière,75013 Paris,Francia<br>
+                            Facebook<br>Instagram:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            function confirmar(){
+
+            }
+
+            function alterar(){
+
+            }
+
+            function deletar(){
+
+            }
+        </script>
+
+</body>
+</html>
